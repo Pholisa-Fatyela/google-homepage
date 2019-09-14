@@ -1,0 +1,142 @@
+a {
+    text-decoration: none;
+    color: #000; opacity: 0.75;
+}
+a:hover {
+    text-decoration: underline;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+li {
+    display: inline-block;
+    margin: 5px;
+}
+ul {
+    display: inline-block; 
+}
+img {
+    vertical-align: middle;
+}
+input
+{
+    margin: 
+}
+
+/*Header*/
+
+#topleftlinks {
+    margin: 20px 20px;
+    display: inline-block;
+}
+#toprightlinks {
+    text-align: right;
+    float: right;
+    margin: 20px 20px;
+}
+#signin {
+    background-color:rgb(67, 134, 250);
+    font-weight: 600;
+    padding: 10px;
+}
+
+/*Main*/
+
+#main {
+    padding: 0px 0px 137px;
+}
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 272px;
+    padding: 109px 0px 25px;
+}
+
+#search {
+    display: block;
+    text-align: center;
+}
+.searchbar {
+    background-image: url(../assets/micro.png);
+    background-size: 16px, 8px;
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    width: 536px;
+    height: 44px;
+    border-radius: 30px;
+    border:  1px solid lightgray;
+    margin: 20px;
+    
+}
+.button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 3px;
+    padding: 8px 15px;
+    margin: 15px 5px;
+    color: #5F6368;   
+}
+
+#stick {
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+/*Privacy*/
+
+#privacyrow {
+    border-top: 1px solid #5f6368;
+}
+#shield {
+    display: inline-block;
+    margin: 20px;
+}
+#privtext {
+    display: inline-block;
+    font-size: 24px;
+    vertical-align: middle;
+}
+.privbuttons {
+    vertical-align: middle;
+    margin: 25px 15px 15px 15px;
+    padding: 10px 10px;
+    float: right;
+    border-radius: 5px;
+}
+
+#remind {
+    color: rgb(67, 134, 250);
+}
+#review {
+    background-color: rgb(67, 134, 250);
+}
+
+/*Footer*/
+
+footer {
+    background-color: #f2f2f2
+}
+
+#country {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 10px 20px;
+    color: rgba(0,0,0,.54);
+    font-size: 15px;
+
+}
+#bottomleftlinks a, #bottomrightlinks a {
+    color: #5f6368;
+}
+#bottomleftlinks {
+    margin: 15px 15px;
+    display: inline-block;
+}
+#bottomrightlinks {
+    margin: 15px 15px;
+    display: inline-block;
+    float: right;    
+}
